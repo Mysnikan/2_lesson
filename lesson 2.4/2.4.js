@@ -48,7 +48,7 @@ if(fullPrice > 50000){
     console.log('что-то пошло не так');
 } else if (fullPrice === 0 || fullPrice === 20000 || fullPrice === 50000) {
     console.log('проверка на строгое равенство');
-} else if (fullPrice > 40000 && fullPrice < 500000) {
+} else if (fullPrice > 40000 && fullPrice < 50000) {
     console.log('скидка на следующий заказ 5%');
 }
 
